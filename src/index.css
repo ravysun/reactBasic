@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.App {
+  color: grey;
+  background-color: #333;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 20px;
+  color: white;
+}
+
+.wrapper2 {
+  width: 768px;
+  margin: 0 auto;
+  font-size: 20px;
+  color: white;
+}
+
+header{
+  margin: 0;
+  flex: 1;
+  background-color: grey;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 10px;
+  color: black;
+}
+
+.addForm {
+  height: 200px;
+  line-height: 200px;
+  padding: 0 10px;
+}
+
+label{
+  font-size: 30px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+input[type="text"]{
+  width: 300px;
+  outline: none;
+  font-size: 20px;
+  color: black;
+  padding: 7px;
+}
+
+.addForm button {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  padding: 4.5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.addForm button:hover{
+  color: white;
+  background-color: limegreen;
+  border: none;
+}
+
+.searchForm{
+  margin-bottom: 20px;
+  padding: 0 10px;
+}
+
+.searchForm input[type="text"]{
+  width: 390px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin: 20px 0;
+  display: flex;
+}
+
+main{
+  height: 575px;
+  margin-top: 30px;
+  padding: 0 10px;
+}
+
+.item input[type="checkbox"]{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+footer{
+  background-color: grey;
+  height: 50px;
+  line-height: 50px;
+  margin: 0;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  color: black;
+}
+
+.icon{
+  font-size: 30px;
+  color: aquamarine;
+}
+
+.icon:hover{
+  color: red;
+  cursor: pointer;
+}
